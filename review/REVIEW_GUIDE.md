@@ -267,6 +267,7 @@ wrapped model:
 `VsumReloadWatcher` calls `switchBranch()` when a `post-checkout` hook trigger is detected. For
 API-triggered branch switches, `BranchManager.switchBranch()` calls
 `PostCheckoutHandler.onBranchSwitch()` which drives the same reload path.
+
 ---
 
 ### 3.4 Branch Management
